@@ -1,6 +1,6 @@
 
 // Display current day on the workday scheduler header
-var today = moment().format("MMM Do YY"); 
+var today = moment().format("MMM Do YYYY"); 
 $("#currentDay").text(today);
 
 //Setting timeblocks 
