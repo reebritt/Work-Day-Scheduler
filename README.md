@@ -1,12 +1,25 @@
 # Work-Day-Scheduler
 calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 # 05 Third-Party APIs: Work Day Scheduler
+[Moment.js](https://momentjs.com/) 
 
+
+
+
+
+
+
+
+
+Sources 
+[Moment.js](https://momentjs.com/) 
+https://www.tutorialspoint.com/momentjs/momentjs_overview.htm
+******************************************************
 ## Your Task
 
 Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
-You'll need to use a library like [Moment.js](https://momentjs.com/) to work with dates and times. `Moment.js` has historically been the most popular date/time library but is no longer supported by its developers. However, you can still use it for this project, or you can look into one of the following alternatives:
+You'll need to use a library like to work with dates and times. `Moment.js` has historically been the most popular date/time library but is no longer supported by its developers. However, you can still use it for this project, or you can look into one of the following alternatives:
 
 ## User Story
 
