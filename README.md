@@ -33,6 +33,8 @@ Sources
 https://www.tutorialspoint.com/momentjs/momentjs_overview.htm
 https://ultimatecourses.com/blog/javascript-hasclass-addclass-removeclass-toggleclass
 
+images will be added once the clock resets for time
+
 
 ******************************************************
 
