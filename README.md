@@ -3,7 +3,6 @@ Calendar application that allows a user to save events for each hour of the day 
 # 05 Third-Party APIs: Work Day Scheduler
 [Moment.js](https://momentjs.com/) 
 
-
 ## User Story
 
 ```
@@ -37,19 +36,16 @@ https://api.jquery.com/siblings/
 https://api.jquery.com/parent/
 https://learn.jquery.com/using-jquery-core/document-ready/
 
-images will be added once the clock resets for time
-
-
+Workday scheduler images 
+<img src="./Assets/wk1.png">
+<img src="./Assets/wk2.png">
+<img src="./Assets/wk3.png">
+<img src="./Assets/wk4.png">
+<img src="./Assets/wk5.png">
 ******************************************************
+https://reebritt.github.io/Work-Day-Scheduler/
+https://github.com/reebritt/Work-Day-Scheduler
 
 
 
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
 
