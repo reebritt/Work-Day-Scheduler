@@ -3,6 +3,7 @@ Calendar application that allows a user to save events for each hour of the day 
 # 05 Third-Party APIs: Work Day Scheduler
 [Moment.js](https://momentjs.com/) 
 
+
 ## User Story
 
 ```
@@ -32,6 +33,9 @@ Sources
 [Moment.js](https://momentjs.com/) 
 https://www.tutorialspoint.com/momentjs/momentjs_overview.htm
 https://ultimatecourses.com/blog/javascript-hasclass-addclass-removeclass-toggleclass
+https://api.jquery.com/siblings/
+https://api.jquery.com/parent/
+https://learn.jquery.com/using-jquery-core/document-ready/
 
 images will be added once the clock resets for time
 

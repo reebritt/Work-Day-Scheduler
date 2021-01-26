@@ -1,10 +1,10 @@
 
 // Display current day on the workday scheduler header
-var today = moment().format("LLLL"); 
+var today = moment().format("LLLL");
 $("#currentDay").text(today);
 
-//setting timeblocks 
-$(document).ready(function(){
+//setting timeblocks and .val used to get values from textarea
+$(document).ready(function () {
     $("#hour9 .description").val(localStorage.getItem("hour9"));
     $("#hour10 .description").val(localStorage.getItem("hour10"));
     $("#hour11 .description").val(localStorage.getItem("hour11"));
@@ -16,16 +16,16 @@ $(document).ready(function(){
     $("#hour17 .description").val(localStorage.getItem("hour17"));
 
     //add click event to save text & hour
-    $(".saveBtn").on("click", function (){
+    $(".saveBtn").on("click", function () {
         var input = $(this).siblings(".description").val();
         var time = $(this).parent().attr("id");
         localStorage.setItem(time, input);
     })
 
     // add function for timeblock color. Checking hour past, present, future 
-    function hourColor () {
+    function hourColor() {
         var now = moment().hour();
-        $(".time-block").each(function (){
+        $(".time-block").each(function () {
             var time = parseInt($(this).attr("id").split("hour")[1]);
             if (time < now) {
                 $(this).removeClass("future");
@@ -43,5 +43,5 @@ $(document).ready(function(){
         })
 
     }
-    hourColor ()
+    hourColor()
 });
